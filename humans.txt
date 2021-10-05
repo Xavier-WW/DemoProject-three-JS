@@ -1,0 +1,35 @@
+__  __  __
+\ \ \ \ \/
+ \ \/\ \
+  \/  \/
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER | デザイナー
+
+Xavier W. Wang
+Hand crafted design & web development
+
+Design tools:
+Figma
+Photoshop
+
+https://github.com/Xavier-WW
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+React
+Three js
+Popmotion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Gotham
+Hiragino Kaku Gothic
