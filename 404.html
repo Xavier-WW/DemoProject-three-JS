@@ -13,53 +13,7 @@
     <link href="/safari-pinned-tab.svg" rel="mask-icon" color="#5bbad5" />
     <meta content="#da532c" name="msapplication-TileColor" />
     <meta content="#ffffff" name="theme-color" />
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
-      // Note: this 404.html file must be at least 512 bytes for it to work
-      // with Internet Explorer (it is currently > 512 bytes)
-
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part of the path, and not
-      // the real directory in which the app resides, for example:
-      // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
-      // Otherwise, leave pathSegmentsToKeep as 0.
-      var pathSegmentsToKeep = 1;
-
-      var l = window.location;
-      l.replace(
-        l.protocol +
-          "//" +
-          l.hostname +
-          (l.port ? ":" + l.port : "") +
-          l.pathname
-            .split("/")
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join("/") +
-          "/?/" +
-          l.pathname
-            .slice(1)
-            .split("/")
-            .slice(pathSegmentsToKeep)
-            .join("/")
-            .replace(/&/g, "~and~") +
-          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
-          l.hash
-      );
-    </script>
-    <link
-      href="/Portfolio-three-JS/humans.txt"
-      rel="author"
-      type="text/plain"
-    />
+    <link href="/Portfolio-three-JS/humans.txt" rel="author" type="text/plain" />
     <link
       href="/Portfolio-three-JS/static/css/main.a9c631ac.chunk.css"
       rel="stylesheet"
@@ -92,7 +46,7 @@
       crossorigin=""
     />
     <link
-      href="https://X/Portfolio-three-JS/404.html"
+      href="https://xavier-ww.github.io/Portfolio-three-JS/Portfolio-three-JS/404.html"
       rel="canonical"
       data-react-helmet="true"
     />
@@ -101,14 +55,14 @@
         font-family: Gotham;
         font-weight: 400;
         src: url(/Portfolio-three-JS/static/media/gotham-book.9c2a0ce4.woff2)
-          format("woff");
+          format('woff');
         font-display: swap;
       }
       @font-face {
         font-family: Gotham;
         font-weight: 500;
         src: url(/Portfolio-three-JS/static/media/gotham-medium.0ad7d622.woff2)
-          format("woff2");
+          format('woff2');
         font-display: swap;
       }
     </style>
@@ -122,14 +76,14 @@
         --durationM: 400ms;
         --durationL: 600ms;
         --durationXL: 800ms;
-        --systemFontStack: system-ui, -apple-system, BlinkMacSystemFont,
-          San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
-        --fontStack: Gotham, system-ui, -apple-system, BlinkMacSystemFont,
-          San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
-        --monoFontStack: SFMono Regular, Roboto Mono, Consolas, Liberation Mono,
-          Menlo, Courier, monospace;
-        --japaneseFontStack: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,
-          Hiragino Sans, Osaka, メイリオ, Meiryo, Segoe UI, sans-serif;
+        --systemFontStack: system-ui, -apple-system, BlinkMacSystemFont, San Francisco,
+          Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+        --fontStack: Gotham, system-ui, -apple-system, BlinkMacSystemFont, San Francisco,
+          Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+        --monoFontStack: SFMono Regular, Roboto Mono, Consolas, Liberation Mono, Menlo,
+          Courier, monospace;
+        --japaneseFontStack: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Hiragino Sans,
+          Osaka, メイリオ, Meiryo, Segoe UI, sans-serif;
         --fontWeightRegular: 400;
         --fontWeightMedium: 500;
         --fontWeightBold: 700;
@@ -244,8 +198,8 @@
   </head>
   <body class="dark">
     <script>
-      const preferredTheme = JSON.parse(localStorage.getItem("theme"));
-      document.body.className = preferredTheme || "dark";
+      const preferredTheme = JSON.parse(localStorage.getItem('theme'));
+      document.body.className = preferredTheme || 'dark';
     </script>
     <div id="root">
       <a
@@ -254,10 +208,7 @@
         >Skip to main content</a
       >
       <header class="navbar">
-        <a
-          class="navbar__logo"
-          href="/#intro"
-          aria-label="Hamish Williams, Designer"
+        <a class="navbar__logo" href="/#intro" aria-label="Hamish Williams, Designer"
           ><svg
             aria-hidden="true"
             class="monogram"
@@ -267,22 +218,12 @@
           >
             <defs>
               <clipPath id="monogram-clip-1">
-                <path
-                  d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
-                ></path>
+                <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"></path>
               </clipPath>
             </defs>
-            <rect
-              height="100%"
-              width="100%"
-              clip-path="url(#monogram-clip-1)"
-            ></rect>
+            <rect height="100%" width="100%" clip-path="url(#monogram-clip-1)"></rect>
             <g clip-path="url(#monogram-clip-1)">
-              <rect
-                height="100%"
-                width="100%"
-                class="monogram__highlight"
-              ></rect>
+              <rect height="100%" width="100%" class="monogram__highlight"></rect>
             </g></svg></a
         ><button
           aria-expanded="false"
@@ -298,9 +239,7 @@
                 viewBox="0 0 24 24"
                 width="24"
               >
-                <path
-                  d="M22 6H2V4h20v2zM2 13h16v-2H2v2zm0 7h20v-2H2v2z"
-                ></path></svg
+                <path d="M22 6H2V4h20v2zM2 13h16v-2H2v2zm0 7h20v-2H2v2z"></path></svg
               ><svg
                 aria-hidden="true"
                 class="icon nav-toggle__icon nav-toggle__icon--close"
@@ -347,75 +286,49 @@
             <div class="page-404__details">
               <div class="page-404__text">
                 <h1
-                  class="
-                    page-404__title page-404__title--entered
-                    heading
-                    heading--align-auto
-                    heading--level-0
-                    heading--weight-medium
-                  "
+                  class="page-404__title page-404__title--entered heading heading--align-auto heading--level-0 heading--weight-medium"
                 >
                   404
                 </h1>
                 <h2
                   aria-hidden="true"
-                  class="
-                    page-404__subheading page-404__subheading--entered
-                    heading
-                    heading--align-auto
-                    heading--level-3
-                    heading--weight-medium
-                  "
+                  class="page-404__subheading page-404__subheading--entered heading heading--align-auto heading--level-3 heading--weight-medium"
                 >
                   <span class="decoder-text"
                     ><span
-                      class="
-                        visually-hidden
-                        decoder-text__label
-                        visually-hidden--hidden
-                      "
+                      class="visually-hidden decoder-text__label visually-hidden--hidden"
                       >Error: Redacted</span
                     ><span class="decoder-text__content" aria-hidden="true"
-                      ><span class="decoder-text__glyph">ヅ</span
-                      ><span class="decoder-text__glyph">ミ</span
-                      ><span class="decoder-text__glyph">ヂ</span
                       ><span class="decoder-text__glyph">イ</span
-                      ><span class="decoder-text__glyph">モ</span
-                      ><span class="decoder-text__glyph">ヘ</span
-                      ><span class="decoder-text__glyph">ン</span
-                      ><span class="decoder-text__glyph">ツ</span
-                      ><span class="decoder-text__glyph">ヂ</span
-                      ><span class="decoder-text__glyph">ヒ</span
-                      ><span class="decoder-text__glyph">ゾ</span
-                      ><span class="decoder-text__glyph">ナ</span
-                      ><span class="decoder-text__glyph">ギ</span
-                      ><span class="decoder-text__glyph">セ</span
-                      ><span class="decoder-text__glyph">ガ</span></span
+                      ><span class="decoder-text__glyph">ヨ</span
+                      ><span class="decoder-text__glyph">ヤ</span
+                      ><span class="decoder-text__glyph">ベ</span
+                      ><span class="decoder-text__glyph">ゲ</span
+                      ><span class="decoder-text__glyph">ホ</span
+                      ><span class="decoder-text__glyph">ダ</span
+                      ><span class="decoder-text__glyph">シ</span
+                      ><span class="decoder-text__glyph">ノ</span
+                      ><span class="decoder-text__glyph">マ</span
+                      ><span class="decoder-text__glyph">ム</span
+                      ><span class="decoder-text__glyph">ア</span
+                      ><span class="decoder-text__glyph">ヅ</span
+                      ><span class="decoder-text__glyph">コ</span
+                      ><span class="decoder-text__glyph">フ</span></span
                     ></span
                   >
                 </h2>
                 <p
-                  class="
-                    page-404__description page-404__description--entered
-                    text text--align-auto text--size-m text--weight-auto
-                  "
+                  class="page-404__description page-404__description--entered text text--align-auto text--size-m text--weight-auto"
                 >
-                  This page could not be found. It either doesn’t exist or was
-                  deleted. Or perhaps we don’t exist at all.
+                  This page could not be found. It either doesn’t exist or was deleted. Or
+                  perhaps we don’t exist at all.
                 </p>
                 <a
-                  class="
-                    button
-                    page-404__button page-404__button--entered
-                    button--secondary
-                  "
+                  class="button page-404__button page-404__button--entered button--secondary"
                   href="/"
                   ><svg
                     aria-hidden="true"
-                    class="
-                      icon
-                      button__icon button__icon--start button__icon--shift
-                    "
+                    class="icon button__icon button__icon--start button__icon--shift"
                     height="24"
                     viewBox="0 0 24 24"
                     width="24"
@@ -427,11 +340,7 @@
                 >
               </div>
             </div>
-            <div
-              class="
-                page-404__video-container page-404__video-container--entered
-              "
-            >
+            <div class="page-404__video-container page-404__video-container--entered">
               <video
                 autoplay
                 class="page-404__video page-404__video--entered"
@@ -458,18 +367,11 @@
     <script>
       !(function (e) {
         function t(t) {
-          for (
-            var n, o, u = t[0], i = t[1], f = t[2], l = 0, d = [];
-            l < u.length;
-            l++
-          )
+          for (var n, o, u = t[0], i = t[1], f = t[2], l = 0, d = []; l < u.length; l++)
             (o = u[l]),
-              Object.prototype.hasOwnProperty.call(a, o) &&
-                a[o] &&
-                d.push(a[o][0]),
+              Object.prototype.hasOwnProperty.call(a, o) && a[o] && d.push(a[o][0]),
               (a[o] = 0);
-          for (n in i)
-            Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]);
+          for (n in i) Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]);
           for (s && s(t); d.length; ) d.shift()();
           return c.push.apply(c, f || []), r();
         }
@@ -497,70 +399,61 @@
           o[e]
             ? t.push(o[e])
             : 0 !== o[e] &&
-              { 5: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1 }[
-                e
-              ] &&
+              { 5: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1 }[e] &&
               t.push(
                 (o[e] = new Promise(function (t, r) {
                   for (
                     var n =
-                        "static/css/" +
+                        'static/css/' +
                         ({}[e] || e) +
-                        "." +
+                        '.' +
                         {
-                          0: "31d6cfe0",
-                          1: "31d6cfe0",
-                          2: "31d6cfe0",
-                          5: "da871aa2",
-                          7: "d62c2e3d",
-                          8: "b1d6b090",
-                          9: "65817527",
-                          10: "f34e198c",
-                          11: "02528a26",
-                          12: "5d194e80",
-                          13: "8df748a7",
-                          14: "a190fbef",
-                          15: "31d6cfe0",
+                          0: '31d6cfe0',
+                          1: '31d6cfe0',
+                          2: '31d6cfe0',
+                          5: 'da871aa2',
+                          7: 'd62c2e3d',
+                          8: 'b1d6b090',
+                          9: '65817527',
+                          10: 'f34e198c',
+                          11: '02528a26',
+                          12: '5d194e80',
+                          13: '8df748a7',
+                          14: 'a190fbef',
+                          15: '31d6cfe0',
                         }[e] +
-                        ".chunk.css",
+                        '.chunk.css',
                       a = u.p + n,
-                      c = document.getElementsByTagName("link"),
+                      c = document.getElementsByTagName('link'),
                       i = 0;
                     i < c.length;
                     i++
                   ) {
                     var f =
-                      (s = c[i]).getAttribute("data-href") ||
-                      s.getAttribute("href");
-                    if ("stylesheet" === s.rel && (f === n || f === a))
-                      return t();
+                      (s = c[i]).getAttribute('data-href') || s.getAttribute('href');
+                    if ('stylesheet' === s.rel && (f === n || f === a)) return t();
                   }
-                  var l = document.getElementsByTagName("style");
+                  var l = document.getElementsByTagName('style');
                   for (i = 0; i < l.length; i++) {
                     var s;
-                    if (
-                      (f = (s = l[i]).getAttribute("data-href")) === n ||
-                      f === a
-                    )
+                    if ((f = (s = l[i]).getAttribute('data-href')) === n || f === a)
                       return t();
                   }
-                  var d = document.createElement("link");
-                  (d.rel = "stylesheet"),
-                    (d.type = "text/css"),
+                  var d = document.createElement('link');
+                  (d.rel = 'stylesheet'),
+                    (d.type = 'text/css'),
                     (d.onload = t),
                     (d.onerror = function (t) {
                       var n = (t && t.target && t.target.src) || a,
-                        c = new Error(
-                          "Loading CSS chunk " + e + " failed.\n(" + n + ")"
-                        );
-                      (c.code = "CSS_CHUNK_LOAD_FAILED"),
+                        c = new Error('Loading CSS chunk ' + e + ' failed.\n(' + n + ')');
+                      (c.code = 'CSS_CHUNK_LOAD_FAILED'),
                         (c.request = n),
                         delete o[e],
                         d.parentNode.removeChild(d),
                         r(c);
                     }),
                     (d.href = a),
-                    document.getElementsByTagName("head")[0].appendChild(d);
+                    document.getElementsByTagName('head')[0].appendChild(d);
                 }).then(function () {
                   o[e] = 0;
                 }))
@@ -574,32 +467,32 @@
               });
               t.push((r[2] = n));
               var c,
-                i = document.createElement("script");
-              (i.charset = "utf-8"),
+                i = document.createElement('script');
+              (i.charset = 'utf-8'),
                 (i.timeout = 120),
-                u.nc && i.setAttribute("nonce", u.nc),
+                u.nc && i.setAttribute('nonce', u.nc),
                 (i.src = (function (e) {
                   return (
                     u.p +
-                    "static/js/" +
+                    'static/js/' +
                     ({}[e] || e) +
-                    "." +
+                    '.' +
                     {
-                      0: "b0298225",
-                      1: "e0204490",
-                      2: "ca61586b",
-                      5: "0b6d88a7",
-                      7: "3e85dca8",
-                      8: "c5c7b6a7",
-                      9: "9e13a898",
-                      10: "ba527cc8",
-                      11: "ef9a4559",
-                      12: "6a9ab4aa",
-                      13: "5e18566c",
-                      14: "4534d215",
-                      15: "79ff2cbd",
+                      0: 'b0298225',
+                      1: 'e0204490',
+                      2: 'ca61586b',
+                      5: '0b6d88a7',
+                      7: '3e85dca8',
+                      8: 'c5c7b6a7',
+                      9: '9e13a898',
+                      10: 'ba527cc8',
+                      11: 'ef9a4559',
+                      12: '6a9ab4aa',
+                      13: '5e18566c',
+                      14: '4534d215',
+                      15: '79ff2cbd',
                     }[e] +
-                    ".chunk.js"
+                    '.chunk.js'
                   );
                 })(e));
               var f = new Error();
@@ -608,17 +501,11 @@
                 var r = a[e];
                 if (0 !== r) {
                   if (r) {
-                    var n = t && ("load" === t.type ? "missing" : t.type),
+                    var n = t && ('load' === t.type ? 'missing' : t.type),
                       o = t && t.target && t.target.src;
                     (f.message =
-                      "Loading chunk " +
-                      e +
-                      " failed.\n(" +
-                      n +
-                      ": " +
-                      o +
-                      ")"),
-                      (f.name = "ChunkLoadError"),
+                      'Loading chunk ' + e + ' failed.\n(' + n + ': ' + o + ')'),
+                      (f.name = 'ChunkLoadError'),
                       (f.type = n),
                       (f.request = o),
                       r[1](f);
@@ -627,7 +514,7 @@
                 }
               };
               var l = setTimeout(function () {
-                c({ type: "timeout", target: i });
+                c({ type: 'timeout', target: i });
               }, 12e4);
               (i.onerror = i.onload = c), document.head.appendChild(i);
             }
@@ -636,23 +523,22 @@
           (u.m = e),
           (u.c = n),
           (u.d = function (e, t, r) {
-            u.o(e, t) ||
-              Object.defineProperty(e, t, { enumerable: !0, get: r });
+            u.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r });
           }),
           (u.r = function (e) {
-            "undefined" != typeof Symbol &&
+            'undefined' != typeof Symbol &&
               Symbol.toStringTag &&
-              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-              Object.defineProperty(e, "__esModule", { value: !0 });
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
           }),
           (u.t = function (e, t) {
             if ((1 & t && (e = u(e)), 8 & t)) return e;
-            if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+            if (4 & t && 'object' == typeof e && e && e.__esModule) return e;
             var r = Object.create(null);
             if (
               (u.r(r),
-              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
-              2 & t && "string" != typeof e)
+              Object.defineProperty(r, 'default', { enumerable: !0, value: e }),
+              2 & t && 'string' != typeof e)
             )
               for (var n in e)
                 u.d(
@@ -673,12 +559,12 @@
                 : function () {
                     return e;
                   };
-            return u.d(t, "a", t), t;
+            return u.d(t, 'a', t), t;
           }),
           (u.o = function (e, t) {
             return Object.prototype.hasOwnProperty.call(e, t);
           }),
-          (u.p = "/Portfolio-three-JS/"),
+          (u.p = '/Portfolio-three-JS/'),
           (u.oe = function (e) {
             throw (console.error(e), e);
           });
@@ -691,6 +577,6 @@
       })([]);
     </script>
     <script src="/Portfolio-three-JS/static/js/6.7d664ba1.chunk.js"></script>
-    <script src="/Portfolio-three-JS/static/js/main.3aeafd5b.chunk.js"></script>
+    <script src="/Portfolio-three-JS/static/js/main.25093a90.chunk.js"></script>
   </body>
 </html>

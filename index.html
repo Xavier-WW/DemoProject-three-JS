@@ -13,41 +13,7 @@
     <link href="/safari-pinned-tab.svg" rel="mask-icon" color="#5bbad5" />
     <meta content="#da532c" name="msapplication-TileColor" />
     <meta content="#ffffff" name="theme-color" />
-    <!-- Start Single Page Apps for GitHub Pages -->
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      })(window.location);
-    </script>
-    <!-- End Single Page Apps for GitHub Pages -->
-    <link
-      href="/Portfolio-three-JS/humans.txt"
-      rel="author"
-      type="text/plain"
-    />
+    <link href="/Portfolio-three-JS/humans.txt" rel="author" type="text/plain" />
     <link
       href="/Portfolio-three-JS/static/css/main.a9c631ac.chunk.css"
       rel="stylesheet"
@@ -87,20 +53,24 @@
       as="font"
       crossorigin=""
     />
-    <link href="https://X/" rel="canonical" data-react-helmet="true" />
+    <link
+      href="https://xavier-ww.github.io/Portfolio-three-JS/"
+      rel="canonical"
+      data-react-helmet="true"
+    />
     <style data-react-helmet="true">
       @font-face {
         font-family: Gotham;
         font-weight: 400;
         src: url(/Portfolio-three-JS/static/media/gotham-book.9c2a0ce4.woff2)
-          format("woff");
+          format('woff');
         font-display: swap;
       }
       @font-face {
         font-family: Gotham;
         font-weight: 500;
         src: url(/Portfolio-three-JS/static/media/gotham-medium.0ad7d622.woff2)
-          format("woff2");
+          format('woff2');
         font-display: swap;
       }
     </style>
@@ -114,14 +84,14 @@
         --durationM: 400ms;
         --durationL: 600ms;
         --durationXL: 800ms;
-        --systemFontStack: system-ui, -apple-system, BlinkMacSystemFont,
-          San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
-        --fontStack: Gotham, system-ui, -apple-system, BlinkMacSystemFont,
-          San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
-        --monoFontStack: SFMono Regular, Roboto Mono, Consolas, Liberation Mono,
-          Menlo, Courier, monospace;
-        --japaneseFontStack: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro,
-          Hiragino Sans, Osaka, メイリオ, Meiryo, Segoe UI, sans-serif;
+        --systemFontStack: system-ui, -apple-system, BlinkMacSystemFont, San Francisco,
+          Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+        --fontStack: Gotham, system-ui, -apple-system, BlinkMacSystemFont, San Francisco,
+          Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif;
+        --monoFontStack: SFMono Regular, Roboto Mono, Consolas, Liberation Mono, Menlo,
+          Courier, monospace;
+        --japaneseFontStack: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Hiragino Sans,
+          Osaka, メイリオ, Meiryo, Segoe UI, sans-serif;
         --fontWeightRegular: 400;
         --fontWeightMedium: 500;
         --fontWeightBold: 700;
@@ -250,8 +220,8 @@
   </head>
   <body class="dark">
     <script>
-      const preferredTheme = JSON.parse(localStorage.getItem("theme"));
-      document.body.className = preferredTheme || "dark";
+      const preferredTheme = JSON.parse(localStorage.getItem('theme'));
+      document.body.className = preferredTheme || 'dark';
     </script>
     <div id="root">
       <a
@@ -260,10 +230,7 @@
         >Skip to main content</a
       >
       <header class="navbar">
-        <a
-          class="navbar__logo"
-          href="/#intro"
-          aria-label="Hamish Williams, Designer"
+        <a class="navbar__logo" href="/#intro" aria-label="Hamish Williams, Designer"
           ><svg
             aria-hidden="true"
             height="29"
@@ -273,22 +240,12 @@
           >
             <defs>
               <clipPath id="monogram-clip-1">
-                <path
-                  d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
-                ></path>
+                <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"></path>
               </clipPath>
             </defs>
-            <rect
-              height="100%"
-              width="100%"
-              clip-path="url(#monogram-clip-1)"
-            ></rect>
+            <rect height="100%" width="100%" clip-path="url(#monogram-clip-1)"></rect>
             <g clip-path="url(#monogram-clip-1)">
-              <rect
-                height="100%"
-                width="100%"
-                class="monogram__highlight"
-              ></rect>
+              <rect height="100%" width="100%" class="monogram__highlight"></rect>
             </g></svg></a
         ><button
           aria-expanded="false"
@@ -304,9 +261,7 @@
                 width="24"
                 class="icon nav-toggle__icon nav-toggle__icon--menu"
               >
-                <path
-                  d="M22 6H2V4h20v2zM2 13h16v-2H2v2zm0 7h20v-2H2v2z"
-                ></path></svg
+                <path d="M22 6H2V4h20v2zM2 13h16v-2H2v2zm0 7h20v-2H2v2z"></path></svg
               ><svg
                 aria-hidden="true"
                 height="24"
@@ -360,45 +315,30 @@
                 <h1 class="intro__name intro__name--exited" id="intro-title">
                   <span class="decoder-text"
                     ><span
-                      class="
-                        visually-hidden
-                        decoder-text__label
-                        visually-hidden--hidden
-                      "
+                      class="visually-hidden decoder-text__label visually-hidden--hidden"
                       >Xavier W. Wang</span
                     ><span class="decoder-text__content" aria-hidden="true"
-                      ><span class="decoder-text__glyph">チ</span
-                      ><span class="decoder-text__glyph">コ</span
-                      ><span class="decoder-text__glyph">ゼ</span
-                      ><span class="decoder-text__glyph">ヅ</span
+                      ><span class="decoder-text__glyph">ウ</span
+                      ><span class="decoder-text__glyph">ド</span
+                      ><span class="decoder-text__glyph">タ</span
+                      ><span class="decoder-text__glyph">ル</span
+                      ><span class="decoder-text__glyph">ボ</span
+                      ><span class="decoder-text__glyph">ツ</span
+                      ><span class="decoder-text__glyph">ヌ</span
+                      ><span class="decoder-text__glyph">デ</span
+                      ><span class="decoder-text__glyph">ヤ</span
+                      ><span class="decoder-text__glyph">ペ</span
                       ><span class="decoder-text__glyph">セ</span
-                      ><span class="decoder-text__glyph">ン</span
-                      ><span class="decoder-text__glyph">ネ</span
-                      ><span class="decoder-text__glyph">ジ</span
-                      ><span class="decoder-text__glyph">ワ</span
-                      ><span class="decoder-text__glyph">メ</span
-                      ><span class="decoder-text__glyph">ト</span
-                      ><span class="decoder-text__glyph">ヅ</span
-                      ><span class="decoder-text__glyph">ハ</span
-                      ><span class="decoder-text__glyph">ノ</span></span
+                      ><span class="decoder-text__glyph">バ</span
+                      ><span class="decoder-text__glyph">ゾ</span
+                      ><span class="decoder-text__glyph">エ</span></span
                     ></span
                   >
                 </h1>
                 <h2
-                  class="
-                    intro__title
-                    heading
-                    heading--align-auto
-                    heading--level-0
-                    heading--weight-medium
-                  "
+                  class="intro__title heading heading--align-auto heading--level-0 heading--weight-medium"
                 >
-                  <span
-                    class="
-                      visually-hidden
-                      intro__title-label
-                      visually-hidden--hidden
-                    "
+                  <span class="visually-hidden intro__title-label visually-hidden--hidden"
                     >Designer + Developer, Prototyper, Painter, Illustrator, and
                     Modder</span
                   ><span
@@ -413,11 +353,7 @@
                     ></span></span
                   ><span class="intro__title-row intro__title-row--hidden"
                     ><span
-                      class="
-                        intro__title-word
-                        intro__title-word--plus
-                        intro__title-word--entering
-                      "
+                      class="intro__title-word intro__title-word--plus intro__title-word--entering"
                       aria-hidden="true"
                       style="--delay: 600ms"
                       >Developer</span
@@ -426,10 +362,7 @@
                 </h2>
               </header>
               <div
-                class="
-                  intro__mobile-scroll-indicator
-                  intro__mobile-scroll-indicator--exited
-                "
+                class="intro__mobile-scroll-indicator intro__mobile-scroll-indicator--exited"
               >
                 <svg
                   aria-hidden="true"
@@ -438,11 +371,7 @@
                   width="43"
                   stroke="currentColor"
                 >
-                  <path
-                    d="M1 1l20.5 12L42 1"
-                    fill="none"
-                    stroke-width="2"
-                  ></path>
+                  <path d="M1 1l20.5 12L42 1" fill="none" stroke-width="2"></path>
                 </svg>
               </div>
             </section>
@@ -459,11 +388,7 @@
                     height="137"
                     viewBox="0 0 750 137"
                     width="750"
-                    class="
-                      project-summary__svg
-                      project-summary__svg--laptop
-                      project-summary__svg--exited
-                    "
+                    class="project-summary__svg project-summary__svg--laptop project-summary__svg--exited"
                     fill="currentColor"
                     style="--opacity: 1"
                   >
@@ -472,10 +397,7 @@
                     ></path>
                   </svg>
                   <div
-                    class="
-                      model
-                      project-summary__model project-summary__model--laptop
-                    "
+                    class="model project-summary__model project-summary__model--laptop"
                     style="--delay: 800ms"
                     aria-label="Glimpse"
                     role="img"
@@ -501,40 +423,22 @@
                       <div class="divider__line divider__line--collapsed"></div>
                     </div>
                     <span
-                      class="
-                        project-summary__index-number
-                        project-summary__index-number--exited
-                      "
+                      class="project-summary__index-number project-summary__index-number--exited"
                       >01</span
                     >
                   </div>
                   <h2
-                    class="
-                      project-summary__title project-summary__title--exited
-                      heading
-                      heading--align-auto
-                      heading--level-3
-                      heading--weight-medium
-                    "
+                    class="project-summary__title project-summary__title--exited heading heading--align-auto heading--level-3 heading--weight-medium"
                     id="project-1-title"
                   >
                     Designing the future of education
                   </h2>
                   <p
-                    class="
-                      project-summary__description
-                      project-summary__description--exited
-                      text text--align-auto text--size-m text--weight-auto
-                    "
+                    class="project-summary__description project-summary__description--exited text text--align-auto text--size-m text--weight-auto"
                   >
-                    Designing a platform to bridge front-end designers and
-                    developers
+                    Designing a platform to bridge front-end designers and developers
                   </p>
-                  <div
-                    class="
-                      project-summary__button project-summary__button--exited
-                    "
-                  >
+                  <div class="project-summary__button project-summary__button--exited">
                     <a class="button" href="/projects/X"
                       ><span class="button__text">View Project</span
                       ><svg
@@ -542,10 +446,7 @@
                         height="24"
                         viewBox="0 0 24 24"
                         width="24"
-                        class="
-                          icon
-                          button__icon button__icon--end button__icon--shift
-                        "
+                        class="icon button__icon button__icon--end button__icon--shift"
                       >
                         <path
                           d="M14.207 4.793l6.5 6.5.707.707-.707.707-6.5 6.5-1.414-1.414L17.586 13H3v-2h14.586l-4.793-4.793 1.414-1.414z"
@@ -568,11 +469,7 @@
                     height="137"
                     viewBox="0 0 750 137"
                     width="750"
-                    class="
-                      project-summary__svg
-                      project-summary__svg--phone
-                      project-summary__svg--exited
-                    "
+                    class="project-summary__svg project-summary__svg--phone project-summary__svg--exited"
                     fill="currentColor"
                     style="--opacity: 1"
                   >
@@ -581,10 +478,7 @@
                     ></path>
                   </svg>
                   <div
-                    class="
-                      model
-                      project-summary__model project-summary__model--phone
-                    "
+                    class="model project-summary__model project-summary__model--phone"
                     style="--delay: 500ms"
                     aria-label="XXX"
                     role="img"
@@ -610,39 +504,22 @@
                       <div class="divider__line divider__line--collapsed"></div>
                     </div>
                     <span
-                      class="
-                        project-summary__index-number
-                        project-summary__index-number--exited
-                      "
+                      class="project-summary__index-number project-summary__index-number--exited"
                       >02</span
                     >
                   </div>
                   <h2
-                    class="
-                      project-summary__title project-summary__title--exited
-                      heading
-                      heading--align-auto
-                      heading--level-3
-                      heading--weight-medium
-                    "
+                    class="project-summary__title project-summary__title--exited heading heading--align-auto heading--level-3 heading--weight-medium"
                     id="project-2 genre-2-title"
                   >
                     project-2 genre-2
                   </h2>
                   <p
-                    class="
-                      project-summary__description
-                      project-summary__description--exited
-                      text text--align-auto text--size-m text--weight-auto
-                    "
+                    class="project-summary__description project-summary__description--exited text text--align-auto text--size-m text--weight-auto"
                   >
                     Design and development -
                   </p>
-                  <div
-                    class="
-                      project-summary__button project-summary__button--exited
-                    "
-                  >
+                  <div class="project-summary__button project-summary__button--exited">
                     <a
                       class="button"
                       href="https://"
@@ -654,10 +531,7 @@
                         height="24"
                         viewBox="0 0 24 24"
                         width="24"
-                        class="
-                          icon
-                          button__icon button__icon--end button__icon--shift
-                        "
+                        class="icon button__icon button__icon--end button__icon--shift"
                       >
                         <path
                           d="M14.207 4.793l6.5 6.5.707.707-.707.707-6.5 6.5-1.414-1.414L17.586 13H3v-2h14.586l-4.793-4.793 1.414-1.414z"
@@ -680,11 +554,7 @@
                     height="137"
                     viewBox="0 0 750 137"
                     width="750"
-                    class="
-                      project-summary__svg
-                      project-summary__svg--laptop
-                      project-summary__svg--exited
-                    "
+                    class="project-summary__svg project-summary__svg--laptop project-summary__svg--exited"
                     fill="currentColor"
                     style="--opacity: 1"
                   >
@@ -693,10 +563,7 @@
                     ></path>
                   </svg>
                   <div
-                    class="
-                      model
-                      project-summary__model project-summary__model--laptop
-                    "
+                    class="model project-summary__model project-summary__model--laptop"
                     style="--delay: 800ms"
                     aria-label="Annotating a biomedical"
                     role="img"
@@ -722,39 +589,22 @@
                       <div class="divider__line divider__line--collapsed"></div>
                     </div>
                     <span
-                      class="
-                        project-summary__index-number
-                        project-summary__index-number--exited
-                      "
+                      class="project-summary__index-number project-summary__index-number--exited"
                       >03</span
                     >
                   </div>
                   <h2
-                    class="
-                      project-summary__title project-summary__title--exited
-                      heading
-                      heading--align-auto
-                      heading--level-3
-                      heading--weight-medium
-                    "
+                    class="project-summary__title project-summary__title--exited heading heading--align-auto heading--level-3 heading--weight-medium"
                     id="project-3 genre-3-title"
                   >
                     project-3 genre-3
                   </h2>
                   <p
-                    class="
-                      project-summary__description
-                      project-summary__description--exited
-                      text text--align-auto text--size-m text--weight-auto
-                    "
+                    class="project-summary__description project-summary__description--exited text text--align-auto text--size-m text--weight-auto"
                   >
                     I
                   </p>
-                  <div
-                    class="
-                      project-summary__button project-summary__button--exited
-                    "
-                  >
+                  <div class="project-summary__button project-summary__button--exited">
                     <a class="button" href="/projects/X"
                       ><span class="button__text">View Project</span
                       ><svg
@@ -762,10 +612,7 @@
                         height="24"
                         viewBox="0 0 24 24"
                         width="24"
-                        class="
-                          icon
-                          button__icon button__icon--end button__icon--shift
-                        "
+                        class="icon button__icon button__icon--end button__icon--shift"
                       >
                         <path
                           d="M14.207 4.793l6.5 6.5.707.707-.707.707-6.5 6.5-1.414-1.414L17.586 13H3v-2h14.586l-4.793-4.793 1.414-1.414z"
@@ -784,64 +631,43 @@
               <div class="profile__content">
                 <div class="profile__column">
                   <h3
-                    class="
-                      profile__title profile__title--exited
-                      heading
-                      heading--align-auto
-                      heading--level-3
-                      heading--weight-medium
-                    "
+                    class="profile__title profile__title--exited heading heading--align-auto heading--level-3 heading--weight-medium"
                     id="details-title"
                   >
                     <span class="decoder-text"
                       ><span
-                        class="
-                          visually-hidden
-                          decoder-text__label
-                          visually-hidden--hidden
-                        "
+                        class="visually-hidden decoder-text__label visually-hidden--hidden"
                         >Hi there</span
                       ><span class="decoder-text__content" aria-hidden="true"
+                        ><span class="decoder-text__glyph">ヱ</span
+                        ><span class="decoder-text__glyph">ス</span
+                        ><span class="decoder-text__glyph">ペ</span
                         ><span class="decoder-text__glyph">ツ</span
-                        ><span class="decoder-text__glyph">ゾ</span
-                        ><span class="decoder-text__glyph">ヨ</span
-                        ><span class="decoder-text__glyph">ー</span
-                        ><span class="decoder-text__glyph">ン</span
-                        ><span class="decoder-text__glyph">ツ</span
-                        ><span class="decoder-text__glyph">セ</span
-                        ><span class="decoder-text__glyph">ハ</span></span
+                        ><span class="decoder-text__glyph">テ</span
+                        ><span class="decoder-text__glyph">ホ</span
+                        ><span class="decoder-text__glyph">オ</span
+                        ><span class="decoder-text__glyph">ル</span></span
                       ></span
                     >
                   </h3>
                   <p
-                    class="
-                      profile__description profile__description--exited
-                      text text--align-auto text--size-l text--weight-auto
-                    "
+                    class="profile__description profile__description--exited text text--align-auto text--size-l text--weight-auto"
                   >
                     I’m Xavier, currently, I live in Halifax working as an
-                    Interdisciplinary designer. My projects include UX design,
-                    Graphic design, and Design consult. Being comfortable with
-                    code allows me to rapidly prototype and validate
-                    experiences. If you're interested in the tools and software
-                    I use check out my
+                    Interdisciplinary designer. My projects include UX design, Graphic
+                    design, and Design consult. Being comfortable with code allows me to
+                    rapidly prototype and validate experiences. If you're interested in
+                    the tools and software I use check out my
                     <a class="link" href="/uses">uses page</a>.
                   </p>
                   <p
-                    class="
-                      profile__description profile__description--exited
-                      text text--align-auto text--size-l text--weight-auto
-                    "
+                    class="profile__description profile__description--exited text text--align-auto text--size-l text--weight-auto"
                   >
-                    I’m always down for hearing about new projects, so feel free
-                    to drop me a line.
+                    I’m always down for hearing about new projects, so feel free to drop
+                    me a line.
                   </p>
                   <a
-                    class="
-                      button
-                      profile__button profile__button--exited
-                      button--secondary
-                    "
+                    class="button profile__button profile__button--exited button--secondary"
                     href="/contact"
                     ><svg
                       aria-hidden="true"
@@ -850,9 +676,7 @@
                       width="24"
                       class="icon button__icon button__icon--start"
                     >
-                      <path
-                        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"
-                      ></path></svg
+                      <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2 .01 7z"></path></svg
                     ><span class="button__text">Send me a message</span></a
                   >
                 </div>
@@ -873,14 +697,9 @@
                     </div>
                   </div>
                   <div class="profile__image-wrapper">
-                    <div
-                      class="image image--dark image--reveal"
-                      style="--delay: 100ms"
-                    >
+                    <div class="image image--dark image--reveal" style="--delay: 100ms">
                       <div
-                        class="
-                          image__element-wrapper image__element-wrapper--reveal
-                        "
+                        class="image__element-wrapper image__element-wrapper--reveal"
                         style="--delay: 1100ms"
                       >
                         <img
@@ -936,18 +755,11 @@
     <script>
       !(function (e) {
         function t(t) {
-          for (
-            var n, o, u = t[0], i = t[1], f = t[2], l = 0, d = [];
-            l < u.length;
-            l++
-          )
+          for (var n, o, u = t[0], i = t[1], f = t[2], l = 0, d = []; l < u.length; l++)
             (o = u[l]),
-              Object.prototype.hasOwnProperty.call(a, o) &&
-                a[o] &&
-                d.push(a[o][0]),
+              Object.prototype.hasOwnProperty.call(a, o) && a[o] && d.push(a[o][0]),
               (a[o] = 0);
-          for (n in i)
-            Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]);
+          for (n in i) Object.prototype.hasOwnProperty.call(i, n) && (e[n] = i[n]);
           for (s && s(t); d.length; ) d.shift()();
           return c.push.apply(c, f || []), r();
         }
@@ -975,70 +787,61 @@
           o[e]
             ? t.push(o[e])
             : 0 !== o[e] &&
-              { 5: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1 }[
-                e
-              ] &&
+              { 5: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1 }[e] &&
               t.push(
                 (o[e] = new Promise(function (t, r) {
                   for (
                     var n =
-                        "static/css/" +
+                        'static/css/' +
                         ({}[e] || e) +
-                        "." +
+                        '.' +
                         {
-                          0: "31d6cfe0",
-                          1: "31d6cfe0",
-                          2: "31d6cfe0",
-                          5: "da871aa2",
-                          7: "d62c2e3d",
-                          8: "b1d6b090",
-                          9: "65817527",
-                          10: "f34e198c",
-                          11: "02528a26",
-                          12: "5d194e80",
-                          13: "8df748a7",
-                          14: "a190fbef",
-                          15: "31d6cfe0",
+                          0: '31d6cfe0',
+                          1: '31d6cfe0',
+                          2: '31d6cfe0',
+                          5: 'da871aa2',
+                          7: 'd62c2e3d',
+                          8: 'b1d6b090',
+                          9: '65817527',
+                          10: 'f34e198c',
+                          11: '02528a26',
+                          12: '5d194e80',
+                          13: '8df748a7',
+                          14: 'a190fbef',
+                          15: '31d6cfe0',
                         }[e] +
-                        ".chunk.css",
+                        '.chunk.css',
                       a = u.p + n,
-                      c = document.getElementsByTagName("link"),
+                      c = document.getElementsByTagName('link'),
                       i = 0;
                     i < c.length;
                     i++
                   ) {
                     var f =
-                      (s = c[i]).getAttribute("data-href") ||
-                      s.getAttribute("href");
-                    if ("stylesheet" === s.rel && (f === n || f === a))
-                      return t();
+                      (s = c[i]).getAttribute('data-href') || s.getAttribute('href');
+                    if ('stylesheet' === s.rel && (f === n || f === a)) return t();
                   }
-                  var l = document.getElementsByTagName("style");
+                  var l = document.getElementsByTagName('style');
                   for (i = 0; i < l.length; i++) {
                     var s;
-                    if (
-                      (f = (s = l[i]).getAttribute("data-href")) === n ||
-                      f === a
-                    )
+                    if ((f = (s = l[i]).getAttribute('data-href')) === n || f === a)
                       return t();
                   }
-                  var d = document.createElement("link");
-                  (d.rel = "stylesheet"),
-                    (d.type = "text/css"),
+                  var d = document.createElement('link');
+                  (d.rel = 'stylesheet'),
+                    (d.type = 'text/css'),
                     (d.onload = t),
                     (d.onerror = function (t) {
                       var n = (t && t.target && t.target.src) || a,
-                        c = new Error(
-                          "Loading CSS chunk " + e + " failed.\n(" + n + ")"
-                        );
-                      (c.code = "CSS_CHUNK_LOAD_FAILED"),
+                        c = new Error('Loading CSS chunk ' + e + ' failed.\n(' + n + ')');
+                      (c.code = 'CSS_CHUNK_LOAD_FAILED'),
                         (c.request = n),
                         delete o[e],
                         d.parentNode.removeChild(d),
                         r(c);
                     }),
                     (d.href = a),
-                    document.getElementsByTagName("head")[0].appendChild(d);
+                    document.getElementsByTagName('head')[0].appendChild(d);
                 }).then(function () {
                   o[e] = 0;
                 }))
@@ -1052,32 +855,32 @@
               });
               t.push((r[2] = n));
               var c,
-                i = document.createElement("script");
-              (i.charset = "utf-8"),
+                i = document.createElement('script');
+              (i.charset = 'utf-8'),
                 (i.timeout = 120),
-                u.nc && i.setAttribute("nonce", u.nc),
+                u.nc && i.setAttribute('nonce', u.nc),
                 (i.src = (function (e) {
                   return (
                     u.p +
-                    "static/js/" +
+                    'static/js/' +
                     ({}[e] || e) +
-                    "." +
+                    '.' +
                     {
-                      0: "b0298225",
-                      1: "e0204490",
-                      2: "ca61586b",
-                      5: "0b6d88a7",
-                      7: "3e85dca8",
-                      8: "c5c7b6a7",
-                      9: "9e13a898",
-                      10: "ba527cc8",
-                      11: "ef9a4559",
-                      12: "6a9ab4aa",
-                      13: "5e18566c",
-                      14: "4534d215",
-                      15: "79ff2cbd",
+                      0: 'b0298225',
+                      1: 'e0204490',
+                      2: 'ca61586b',
+                      5: '0b6d88a7',
+                      7: '3e85dca8',
+                      8: 'c5c7b6a7',
+                      9: '9e13a898',
+                      10: 'ba527cc8',
+                      11: 'ef9a4559',
+                      12: '6a9ab4aa',
+                      13: '5e18566c',
+                      14: '4534d215',
+                      15: '79ff2cbd',
                     }[e] +
-                    ".chunk.js"
+                    '.chunk.js'
                   );
                 })(e));
               var f = new Error();
@@ -1086,17 +889,11 @@
                 var r = a[e];
                 if (0 !== r) {
                   if (r) {
-                    var n = t && ("load" === t.type ? "missing" : t.type),
+                    var n = t && ('load' === t.type ? 'missing' : t.type),
                       o = t && t.target && t.target.src;
                     (f.message =
-                      "Loading chunk " +
-                      e +
-                      " failed.\n(" +
-                      n +
-                      ": " +
-                      o +
-                      ")"),
-                      (f.name = "ChunkLoadError"),
+                      'Loading chunk ' + e + ' failed.\n(' + n + ': ' + o + ')'),
+                      (f.name = 'ChunkLoadError'),
                       (f.type = n),
                       (f.request = o),
                       r[1](f);
@@ -1105,7 +902,7 @@
                 }
               };
               var l = setTimeout(function () {
-                c({ type: "timeout", target: i });
+                c({ type: 'timeout', target: i });
               }, 12e4);
               (i.onerror = i.onload = c), document.head.appendChild(i);
             }
@@ -1114,23 +911,22 @@
           (u.m = e),
           (u.c = n),
           (u.d = function (e, t, r) {
-            u.o(e, t) ||
-              Object.defineProperty(e, t, { enumerable: !0, get: r });
+            u.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r });
           }),
           (u.r = function (e) {
-            "undefined" != typeof Symbol &&
+            'undefined' != typeof Symbol &&
               Symbol.toStringTag &&
-              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-              Object.defineProperty(e, "__esModule", { value: !0 });
+              Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
+              Object.defineProperty(e, '__esModule', { value: !0 });
           }),
           (u.t = function (e, t) {
             if ((1 & t && (e = u(e)), 8 & t)) return e;
-            if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+            if (4 & t && 'object' == typeof e && e && e.__esModule) return e;
             var r = Object.create(null);
             if (
               (u.r(r),
-              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
-              2 & t && "string" != typeof e)
+              Object.defineProperty(r, 'default', { enumerable: !0, value: e }),
+              2 & t && 'string' != typeof e)
             )
               for (var n in e)
                 u.d(
@@ -1151,12 +947,12 @@
                 : function () {
                     return e;
                   };
-            return u.d(t, "a", t), t;
+            return u.d(t, 'a', t), t;
           }),
           (u.o = function (e, t) {
             return Object.prototype.hasOwnProperty.call(e, t);
           }),
-          (u.p = "/Portfolio-three-JS/"),
+          (u.p = '/Portfolio-three-JS/'),
           (u.oe = function (e) {
             throw (console.error(e), e);
           });
@@ -1169,6 +965,6 @@
       })([]);
     </script>
     <script src="/Portfolio-three-JS/static/js/6.7d664ba1.chunk.js"></script>
-    <script src="/Portfolio-three-JS/static/js/main.3aeafd5b.chunk.js"></script>
+    <script src="/Portfolio-three-JS/static/js/main.25093a90.chunk.js"></script>
   </body>
 </html>
