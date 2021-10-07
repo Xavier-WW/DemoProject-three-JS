@@ -1,5 +1,5 @@
 # Portfolio-three-JS
-Using three js at bk see demo on github pages at https://xavier-ww.github.io/Portfolio-three-JS/ <br />or on netlify at https://xavierww.netlify.app/
+Using three js at bk see demo on netlify at https://xavierww.netlify.app/
 
 <br />
 Preview:
