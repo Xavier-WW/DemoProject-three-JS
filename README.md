@@ -1,6 +1,7 @@
 ## Portfolio-three-JS
 A single-page application that uses three js. at bk \
-see the demo on Netlify at https://xavierww.netlify.app/ 
+see the demo on
+<a href="https://xavierww.netlify.app/" target="_blank">Netlify</a>
 
 
 <br /> 
