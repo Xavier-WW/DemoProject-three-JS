@@ -1,5 +1,5 @@
-## Portfolio-three-JS
-A single-page application that uses three js. at bk \
+## Portfolio Demo-React & threeJS
+A single-page React application that uses three js. at bk \
 see the demo on
 <a href="https://xavierww.netlify.app/" target="_blank">Netlify</a>
 
